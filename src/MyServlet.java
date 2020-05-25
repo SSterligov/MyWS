@@ -18,6 +18,7 @@ public class MyServlet extends HttpServlet {
             }
         in.close();
         response.setContentType ("text/html; charset=UTF-8");
+
         PrintWriter pw = response.getWriter();
         pw.println("Ответ на POST запрос: ");
         pw.println(result.toString());

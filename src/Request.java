@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 
 public class Request {
     public static void main(String[] args) {
-        Request request = new Request("C:\\Users\\Sergey Sterligov\\IdeaProjects\\MyWS\\TestData.txt", "http://localhost:8080/app");
+        Request request = new Request("C:\\Users\\Sergey Sterligov\\IdeaProjects\\MyWS\\TestData.xml", "https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords");
         request.init();
         request.action();
     }
@@ -37,7 +37,7 @@ public class Request {
         }
         byte[] buffer = body.getBytes();
         httpConn.setRequestProperty("Content-Length", String.valueOf(buffer.length));
-        httpConn.setRequestProperty("Content-Type", "text/xml; charset=utf-8");
+        httpConn.setRequestProperty("Content-Type", "application/soap+xml; charset=utf-8");
         try {
             httpConn.setRequestMethod("POST");
         } catch (ProtocolException e) {
