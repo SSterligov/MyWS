@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 
 public class Request {
     public static void main(String[] args) {
-        Request request = new Request("C:\\Users\\Sergey Sterligov\\IdeaProjects\\MyWS\\TestData.xml", "https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords");
+        Request request = new Request("TestData.xml", "https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords");
         request.init();
         request.action();
     }

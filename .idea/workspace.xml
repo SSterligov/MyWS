@@ -5,25 +5,40 @@
       <artifact name="MyWS:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b8d47523-6c32-4421-80d9-9866aab83556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWS_war_exploded/WEB-INF/classes/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyWS_war_exploded/WEB-INF/classes/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWS/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWS/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWS/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWS/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestData.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MyWS" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,11 +60,17 @@
   </component>
   <component name="ProjectId" id="1cJYUfPEnf0wPp08hsTg25o50BG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/apache-tomcat-9.0.35/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MyApps/apache-tomcat-9.0.35/lib/servlet-api.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43793103" />
@@ -59,19 +80,7 @@
       <recent name="C:\Users\Sergey Sterligov\IdeaProjects\MyWS\web" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Request">
+  <component name="RunManager" selected="Tomcat Server.Tomcat9">
     <configuration name="Request" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Request" />
       <module name="MyWS" />
@@ -79,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="MyWS:war exploded">
           <settings>
@@ -89,7 +98,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyWS_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyWS" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -214,8 +223,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Request" />
+      <item itemvalue="Tomcat Server.Tomcat9" />
     </list>
     <recent_temporary>
       <list>
@@ -234,11 +243,15 @@
       <option name="presentableId" value="Default" />
       <updated>1590248180634</updated>
       <workItem from="1590248186643" duration="20282000" />
+      <workItem from="1590765545435" duration="1053000" />
+      <workItem from="1590861948959" duration="729000" />
+      <workItem from="1590862868423" duration="422000" />
+      <workItem from="1590948247457" duration="4486000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -250,5 +263,80 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="761" y="420" width="697" height="502" key="#Notifications" timestamp="1590861994062">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="761" y="420" width="697" height="502" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1590861994062" />
+    <state x="660" y="458" width="453" height="243" key="#Tomcat_Server" timestamp="1590948797452">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="660" y="458" width="453" height="243" key="#Tomcat_Server/67.27.1853.1053@67.27.1853.1053" timestamp="1590948797452" />
+    <state x="350" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590948825690">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="350" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590948825690" />
+    <state x="903" y="440" width="489" height="248" key="DetectedRootsChooserDialog" timestamp="1590948317209">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="903" y="440" width="489" height="248" key="DetectedRootsChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590948317209" />
+    <state x="780" y="308" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590948794021">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="780" y="308" width="735" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1590948794021" />
+    <state width="1354" height="263" key="GridCell.Tab.0.bottom" timestamp="1590955081385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="263" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590955081385" />
+    <state width="1354" height="263" key="GridCell.Tab.0.center" timestamp="1590955081385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="263" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590955081385" />
+    <state width="1354" height="263" key="GridCell.Tab.0.left" timestamp="1590955081385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="263" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590955081385" />
+    <state width="1354" height="263" key="GridCell.Tab.0.right" timestamp="1590955081385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="263" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590955081385" />
+    <state width="1151" height="252" key="GridCell.Tab.1.bottom" timestamp="1590953424302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424302" />
+    <state width="1151" height="252" key="GridCell.Tab.1.center" timestamp="1590953424302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424302" />
+    <state width="1151" height="252" key="GridCell.Tab.1.left" timestamp="1590953424301">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424301" />
+    <state width="1151" height="252" key="GridCell.Tab.1.right" timestamp="1590953424302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424302" />
+    <state width="1151" height="252" key="GridCell.Tab.2.bottom" timestamp="1590953424303">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424303" />
+    <state width="1151" height="252" key="GridCell.Tab.2.center" timestamp="1590953424302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424302" />
+    <state width="1151" height="252" key="GridCell.Tab.2.left" timestamp="1590953424302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424302" />
+    <state width="1151" height="252" key="GridCell.Tab.2.right" timestamp="1590953424303">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1151" height="252" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590953424303" />
+    <state x="641" y="142" width="1024" height="845" key="SettingsEditor" timestamp="1590948860280">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="641" y="142" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1590948860280" />
   </component>
 </project>
